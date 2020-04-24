@@ -1,23 +1,29 @@
 .Menu{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    background: #E63946;
+    align-items: flex-end;
+    background: white;
+    min-height: 81vh;
+    padding: 5%;
 }
 
 .logo {
-    height: 80px;
-    width: 80px;
+    position: absolute;
+    top: 15%;
+    margin: 0 25%;
+    width: 70vh;
 }
 
 .Menu .link{
-    margin-left: 3%;
-    color: #F1FAEE;
+    font-size: 18px;
+    margin: 0 2%;
+    color: black;
 }
 
 .Menu .link:hover{
     text-decoration: none;
-    border-bottom: 1px solid #F1FAEE;
+    border-bottom: 1px solid #ffffff;
     transform: scale(1.5);
     transition-duration: 0.25s;
 }
